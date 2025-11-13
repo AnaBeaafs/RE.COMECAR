@@ -1,0 +1,36 @@
+.section {
+  padding: 5rem 0;
+  background: var(--gray-50);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: var(--gray-600);
+}
+
+.stat {
+  background: linear-gradient(#5330b3);
+  color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.number {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.label {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}

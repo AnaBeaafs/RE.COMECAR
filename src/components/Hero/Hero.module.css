@@ -1,0 +1,75 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #5DEBD7 0%, #081099 50%, #3f0c8a 100%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #5DEBD7, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: white;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.cta {
+  background: white;
+  color: #081099;
+  padding: 1rem 2.5rem;
+  border-radius: 9999px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}

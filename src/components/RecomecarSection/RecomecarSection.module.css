@@ -1,0 +1,78 @@
+.section {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #081099;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.text {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* NOVA LOGO COM ÍCONE DE RECOMEÇAR */
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoCircle {
+  width: 100px;
+  height: 100px;
+  background: #081099;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 10px 30px rgba(8, 16, 153, 0.3);
+}
+
+.refreshIcon {
+  animation: spin 3s linear infinite;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #081099;
+  letter-spacing: 1px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

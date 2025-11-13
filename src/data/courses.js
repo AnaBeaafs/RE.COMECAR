@@ -1,0 +1,6 @@
+export const courses = [
+  { id: 1, title: "Pacote Office Completo", platform: "Fundação Bradesco", level: "Iniciante", duration: "40h", description: "Aprenda a utilizar o pacote office, Word, Excel, PowerPoint do zero.", link: "https://ev.org.br", thumbnail: "Documentos" },
+  { id: 2, title: "Canva para Iniciantes", platform: "YouTube", level: "Iniciante", duration: "2h", description: "Primeiros designs profissionais, aprenda do zero a criar suas próprias artes gráficas com ferramentas requeridas no mercado.", link: "https://youtube.com", thumbnail: "Designer" },
+  { id: 3, title: "IA na Prática", platform: "Google Ateliê", level: "Intermediário", duration: "20h", description: "Como as IA's podem te auxiliar no dia-a-dia? É possível trabalhar com elas?", link: "https://learndigital.withgoogle.com", thumbnail: "IA's" },
+  { id: 4, title: "Edição de Vídeo Mobile", platform: "SENAI", level: "Intermediário", duration: "30h", description: "CapCut e redes sociais, crie seus vídeos até mesmo pelo celular.", link: "https://senai.br", thumbnail: "Vídeos" }
+];

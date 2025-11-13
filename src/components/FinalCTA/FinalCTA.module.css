@@ -1,0 +1,45 @@
+.section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #081099, #1265b3);
+  color: white;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.primary {
+  background: #5630c0;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+.primary:hover { transform: scale(1.05); }
+
+.secondary {
+  background: transparent;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 9999px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.secondary:hover {
+  background: white;
+  color: #081099;
+}

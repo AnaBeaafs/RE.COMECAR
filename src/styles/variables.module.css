@@ -1,0 +1,26 @@
+:root {
+  --primary: #081099;
+  --secondary: #3f0c8a;
+  --accent: #5DEBD7;
+  --text: #333;
+  --bg: #fff;
+  --gray-50: #f9fafb;
+  --gray-600: #4b5563;
+}
+
+.high-contrast {
+  --primary: yellow;
+  --secondary: yellow;
+  --accent: yellow;
+  --text: yellow;
+  --bg: black;
+  --gray-50: black;
+  --gray-600: yellow;
+}
+
+.high-contrast *,
+.high-contrast {
+  background-color: black !important;
+  color: yellow !important;
+  border-color: yellow !important;
+}
