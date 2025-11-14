@@ -11,6 +11,8 @@ export default function FinalCTA() {
           <button className={styles.primary}>Entre na Comunidade Recomeçar Digital</button>
           <button className={styles.secondary}>Fazer Teste de Perfil Digital</button>
         </div>
+        <p className={styles.copyright}>&copy; <strong>2025</strong> Ana Beatriz F. Souza - RM: 566313, Yuri Guerreiro L. Avila - RM: 563361.<br />
+        As referências externas citadas pertencem aos seus respectivos proprietários. Este site apresenta apenas links e não reproduz conteúdo protegido.</p>
       </div>
     </section>
   );
